@@ -1,0 +1,210 @@
+*{
+  box-sizing: border-box;
+}
+
+.title {
+  font-family:  'Cinzel', serif;
+  text-align: left;
+  width:400px;
+  position: relative;
+  left: 10px;
+  margin-top:2px;
+  font-weight: lighter;
+  }
+  .name {
+    position: relative;
+    width: 300px;
+    text-align:left;
+    margin-left:20px;
+    font-family: 'Cinzel', serif;
+    margin-top: 10px;
+    margin-bottom:2px;
+    right:8px;
+    font-weight: normal;
+}
+  .contact{
+    text-align: right;
+    float: right;
+    width: 55%;
+    margin-top:2px;
+    margin-bottom: 2px;
+    position:relative;
+    bottom: 80px;
+    right: 50px;
+    font-weight: normal;
+    font-family: 'Cinzel', serif;
+    min-width: 300px;
+  }
+  @media only screen and (max-width: 800px) {
+    .contact {
+        display: none;
+    }
+}
+
+.images{
+    width: 700px;
+    content: center;
+  }
+
+  img {
+    position: relative;
+    left: 300px;
+    display: inline;
+    height: 400px;
+    width: 250px;
+    content: center;
+    z-index: 0.9;
+  }
+
+
+#aus:hover{
+    transform: scale(1.8);
+    z-index: 1;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    transition: 900ms;
+    border: 1px solid black;
+    padding: 2px;
+    background-color: black;
+}
+
+
+
+#edin:hover{
+    transform: scale(1.8);
+    z-index: 1;
+    position: relative;
+    bottom: 200px;
+    left: 140px;
+    transition: 900ms;
+    border: 1px solid black;
+    padding: 2px;
+    background-color: black;
+}
+
+.viet:hover{
+    transform: scale(1.8);
+    z-index: 1;
+    position: relative;
+    top: 200px;
+    left: 450px;
+    transition: 900ms;
+    border: 1px solid black;
+    padding: 2px;
+    background-color: black;
+}
+
+.model:hover{
+    transform: scale(1.8);
+    z-index: 1;
+    position: relative;
+    bottom: 200px;
+    left: 450px;
+    transition-delay: 0.5s;
+    transition: 900ms;
+    border: 1px solid black;
+    padding: 2px;
+    background-color: black;
+}
+
+  .text_1{
+    background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  }
+  #aus{
+    width: 300px;
+  }
+  #edin{
+    width:300px;
+  }
+
+  .nav{
+    position: absolute;
+    height:800px;
+    width: 200px;
+    border: solid 0.5px black;
+    font-size: 20px;
+    background-color:hsla(182, 29%, 80%, 0.3);
+  }
+  a {
+    font-family: 'Josefin Slab', serif;
+    color: #1f4e5f;
+    position:relative;
+    font-weight: lighter;
+    font-size: 20px;
+  }
+  a:active
+  {
+    top:2px;
+  }
+  .header{
+    background-color: 	hsla(182, 29%, 73%, 0.3);
+  }
+  body{
+  background-color: hsla(184, 24%, 88%, 0.8);
+
+  }
+  li {
+    padding: 5px;
+    font-family: 'Josefin Slab', serif;
+  }
+
+  @media only screen and (max-width: 800px),(hover:none) {
+    img {
+        display: block;
+        margin-bottom: 4px;
+          }
+  }
+
+  @media only screen and (max-width: 600px),(hover:none) {
+    img {
+        display: none;
+          }
+  }
+
+@media only screen and (max-width: 800px) {
+  .viet:hover {
+      display: block;
+      margin-bottom: 4px;
+      transform: scale(1);
+      z-index: 0.1;
+      opacity: 0.001;
+      position: relative;
+      bottom: 50px;
+
+      }
+}
+
+@media only screen and (max-width: 800px) {
+  #aus:hover {
+      display: block;
+      margin-bottom: 4px;
+      transform: scale(1);
+      z-index: 0.1;
+      opacity: 0.001;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+  .model:hover {
+      display: block;
+      margin-bottom: 4px;
+      transform: scale(1);
+      z-index: 0.1;
+      opacity: 0.001;
+
+      }
+}
+
+@media only screen and (max-width: 800px) {
+  #edin:hover {
+      display: block;
+      margin-bottom: 4px;
+      transform: scale(1);
+      z-index: 0.1;
+      opacity: 0.001;
+      }
+}
